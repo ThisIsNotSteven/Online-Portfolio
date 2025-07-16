@@ -664,9 +664,22 @@ span{
     }
     .home-img img{
         width: 56vw;
+        margin-bottom: -14rem;
+    }
+    .arrow{
+        position: absolute;
+        right: 2rem;
+        bottom: 2.5rem;
     }
     .about{
         flex-direction: column;
         margin: 5rem 4rem;
+    }
+    .about-img img{
+        width: 56vw;
+    }
+    .about-container{
+        flex-direction: column;
+        align-items: center;
     }
 }
